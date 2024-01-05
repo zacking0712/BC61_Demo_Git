@@ -11,3 +11,5 @@
 6. Đẩy code lên github : 
     + git push (đối với lần đầu đưa code lên) : -u origin master
     + git push (đối với nhiều lần đưa code lên) : master
+
+7. Tạo bản sao từ github : git clone "link remoteRepository"
