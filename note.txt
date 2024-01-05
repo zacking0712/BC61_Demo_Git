@@ -17,3 +17,14 @@
 8. Lấy sự thay đổi mới nhất từ remoteRepository về máy tính : git pull origin <tên nhánh trên remoteRepository>
 
 9. File .gitignore giúp hỗ trợ trong việc có một số file hoặc thư mục không muốn đưa lên remoteRepository
+
+10. Tạo thêm nhánh mới : git branch <tên nhánh>
+
+11. Kiểm tra mình đang đứng ở nhánh nào : git branch -a
+
+12. Đổi nhánh đứng : git checkout <tên nhánh muốn đứng>
+
+13. Update code mới ở nhánh mới thì vẫn làm 3 bước : 
+    + git add . 
+    + git commit -m "nội dung"
+    + git push -u origin <tên nhánh mới>
