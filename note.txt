@@ -13,3 +13,5 @@
     + git push (đối với nhiều lần đưa code lên) : master
 
 7. Tạo bản sao từ github : git clone "link remoteRepository"
+
+8. Lấy sự thay đổi mới nhất từ remoteRepository về máy tính : git pull origin <tên nhánh trên remoteRepository>
