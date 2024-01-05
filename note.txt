@@ -1,2 +1,13 @@
 1. Khởi tạo thư mục dự án bằng localRepository: git init
-2. Sử dụng lệnh đưa các file và sự thay đổi lên khu vực staging area: git add (xem cấu trúc thư mục : git status)
+
+2. Sử dụng lệnh đưa các file và sự thay đổi lên khu vực staging area: git add (1 file) hoặc (nhiều thư mục có thay đổi thì dùng . hoặc -A)
+
+3. Xem cấu trúc thư mục : git status
+
+4. Update kèm lời nhắn: git commit -m "<lời nhắn gì đó>"
+
+5. Tạo kết nối giữa localRepository và remoteRepository: git remote add origin "link tới remoteRepository trên github"
+
+6. Đẩy code lên github : 
+    + git push (đối với lần đầu đưa code lên) : -u origin master
+    + git push (đối với nhiều lần đưa code lên) : master
