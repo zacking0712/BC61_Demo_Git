@@ -15,3 +15,5 @@
 7. Tạo bản sao từ github : git clone "link remoteRepository"
 
 8. Lấy sự thay đổi mới nhất từ remoteRepository về máy tính : git pull origin <tên nhánh trên remoteRepository>
+
+9. File .gitignore giúp hỗ trợ trong việc có một số file hoặc thư mục không muốn đưa lên remoteRepository
