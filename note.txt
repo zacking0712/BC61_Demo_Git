@@ -24,7 +24,9 @@
 
 12. Đổi nhánh đứng : git checkout <tên nhánh muốn đứng>
 
-13. Update code mới ở nhánh mới thì vẫn làm 3 bước : 
+13. Tạo nhánh mới và chuyển sang nhánh mới: git checkout -b <tên nhánh mới>
+
+14. Update code mới ở nhánh mới thì vẫn làm 3 bước : 
     + git add . 
     + git commit -m "nội dung"
     + git push -u origin <tên nhánh mới>
